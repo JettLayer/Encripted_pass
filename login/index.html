@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <style>
+        input{
+            width: 200px;
+            height: 30px;
+            font-size: 18px;
+        }
+        div{
+            text-align: center;
+        }
+        h1{
+            font-size: 40px;
+        }
+    </style>
+    <div>
+        <h1>Logueo</h1>
+        <form method="POST" action="login.php">
+            <input type="text" name="txtmail" placeholder="Ingresar correo" required>
+            <input type="password" name="txtpassword" placeholder="Ingresar password" required>
+            <input type="submit" value="Iniciar sesion" name="btnlogin">
+        </form>
+        <h1>Registro</h1>
+        <form method="POST" action="login.php">
+            <input type="text" name="txtmail" placeholder="Registrar email" required>
+            <input type="password" name="txtpassword" placeholder="Registrar password" required>
+            <input type="submit" value="Registrar usuario" name="btnregister">
+        </form>
+    </div>
+</html>
